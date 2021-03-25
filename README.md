@@ -7,7 +7,7 @@ For more information please see:[Wiki Project](https://cs50.harvard.edu/web/2020
 
 This project creates an encyclopedia that consists of a number of encyclopedia entries on various topics.
 
-The homepage lists  all the topics in the encyclopedia.
+The homepage lists  all the topics in the encyclopedia. The user can click on any topic to see the article content.
 
 
 ![Encyclopedia Homepage](images/wikiHome.png)
