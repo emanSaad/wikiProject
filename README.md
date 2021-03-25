@@ -16,7 +16,7 @@ The homepage lists  all the topics in the encyclopedia. The user can click on an
 
 - To create new article or edit an existing one.
 
-In both create ane edit form, the user will be able to write MarkDown text and when he clicks save in Edit form or Create in create form
+In both create and edit form, the user will be able to write MarkDown text and when he clicks save in Edit form or Create in create form
 the content will be rendered to HTML and the article will be saved.
 
 
