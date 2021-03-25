@@ -1,0 +1,72 @@
+html {
+    height: 100%;
+    }
+
+body {
+    padding-top: 56px;
+    height: 100%;
+    }
+    
+.sidebar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-right: 2px solid rgb(223, 215, 215);
+    background-color: rgba(245, 250, 243, 0.89);
+    }
+
+#main-container,
+#main-container .row{
+    height: 100%;
+    }
+
+/* .sidebar div a{
+    color:black;
+    } */
+.sidebar div a:hover {
+    background-color: #8dcdf8;
+        
+    color: White;
+    }
+
+a:hover, a.active {
+
+    text-decoration: none;
+    color: #555755;
+    }
+    
+
+/* code {
+    white-space: pre;
+} */
+/* 
+h1 {
+    margin-top: 0px;
+    padding-top: 20px;
+} 
+
+/* textarea {
+    height: 90vh;
+    width: 80%;
+} */
+/* 
+.main {
+    padding: 10px;
+} */
+
+
+.search {
+    width: 100%;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+/* 
+.sidebar {
+    background-color: #f0f0f0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+} */
+/* 
+.sidebar h2 {
+    margin-top: 5px;
+} */

@@ -1,0 +1,24 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% load crispy_forms_tags %}
+
+{% block title %}
+Encyclopedia
+{% endblock %}
+
+{% block body %}
+
+    <form action="{% url 'encyclopedia:create_page' %}" method="POST">
+        {% csrf_token %}
+        {{ form | crispy }}
+        <input type="submit" value="Submit">
+        <a href="{% url 'encyclopedia:index' %}" style="float: right;">See your entry</a>
+    </form>
+
+    {% if isexist %}
+        {{message}}
+    {% endif %}
+
+   
+
+{% endblock %}

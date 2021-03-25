@@ -1,0 +1,24 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+Encyclopedia
+{% endblock %}
+
+{% block body %}
+<h1> Found Pages</h1>
+
+<ul>
+    {% for item in results %}
+        <li>
+            <a href="{% url 'encyclopedia:visit_entry' item %}"> {{ item }} </a>
+        </li>
+    {% endfor %}
+
+</ul>
+
+{% if not results%}
+    <p>0 results found</p>
+
+{%  endif %}
+    
+{% endblock %}
